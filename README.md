@@ -7,8 +7,7 @@ This page provides the results showing that the proposed distributions can signi
 ## Important Future Challenges
 ・Theoretically investigating an "optimal" smooth indistinguishable distribution, for example, minimizes the expected noise amount.
 
-・Developing efficient computational methods for the multi-dimensional case, especially when $d >> 2$. (In the experiments, due to computational time constraints, we considered only the cases SID-I, II, III, and VI when $d=3$.)  
-  ← At worst, for practical purposes, we could simply use the $d$-dimensional product of independent copies of the distribution for $d=1$ case; even then, it would still reduce noise significantly compared to existing methods.
+・Developing efficient computational methods for the multi-dimensional case, especially when $d >> 2$. (In the experiments, due to computational time constraints, we considered only the cases SID-I, II, III, and VI when $d=3$.)
 
 ・Constructing advanced mechanisms, such as bounded and unbiased mechanisms.
 
