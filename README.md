@@ -8,7 +8,7 @@ This page provides the results showing that the proposed distributions can signi
 ・Theoretically investigating an "optimal" smooth indistinguishable distribution, for example, minimizes the expected noise amount.
 
 ・Developing efficient computational methods for the multi-dimensional case, especially when $d >> 2$. (In the experiments, due to computational time constraints, we considered only the cases SID-I, II, III, and VI when $d=3$.)  
-← Can we develop them (even heuristically) based on the distributions for $d=1$ and $d = 2$ cases?
+← Can we develop them (even heuristically) based on the distributions for $d=1$ and $d = 2$ cases? (Note that in general, $d$-dimensional product of independent copies of a one-dimensional $(\epsilon,\beta)$-smooth indistinguishable distribution is not smooth indistinguishable.)
 
 ・Constructing advanced mechanisms, such as bounded and unbiased mechanisms.
 
