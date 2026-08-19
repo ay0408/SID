@@ -4,7 +4,7 @@ We propose $(\epsilon,\beta)$-smooth indistinguishable distributions, a novel fa
 
 This page provides the results showing that the proposed distributions can significantly reduce the (expected) noise amount compared to existing ones, including the Laplace distribution and $(\alpha,\beta)$-admissible distributions. 
 
-In addition to the results presented in the paper, we also provide some results of the $d=3$ case. Due to intensive computational costs, we considered only the cases SID-I, II, III, and VI when $\epsilon=5$; nevertheless, the provided results indeed show the superiority of the smooth indistinguishable distributions. For practical purposes at this point, it might be advisable to focus solely on SID-I and III and pre-determine $r$ to a reasonably fixed value. (Naturally, finding the theoretically "optimal" distributions should remain an ongoing topic of research.)
+In addition to the results presented in the paper, we also provide some results of the $d=3$ case. Due to intensive computational costs, we considered only the cases SID-I, II, III, and VI when $\epsilon=5$; nevertheless, the provided results indeed show the superiority of the smooth indistinguishable distributions. For practical purposes at this point, it might be advisable to focus solely on SID-I (and II) and pre-determine $r$ to a reasonably fixed value. (Naturally, finding the theoretically "optimal" distributions should remain an ongoing topic of research.)
 
 ## Impact of Expanding $\beta$ Range
 
