@@ -15,6 +15,8 @@ In practice, the value of $\beta$ should be determined based on factors such as 
 ## Important Future Challenges
 ・Theoretically investigating an "optimal" smooth indistinguishable distribution, for example, minimizes the expected noise amount.
 
+・The differential privacy guarantees in Theorems 1 and 2 are not perfectly tight. For example, the value of $\frac{S(y)}{S(x)}$ should be handled with greater care. By investigating tighter guarantees, I would like to find a more reasonable family of probability distributions for $\epsilon$-indistinguishable mechanisms that satisfies more detailed conditions.
+
 ・Refining the convergence conditions of the expected noise amount for the multi-dimensional case. (In the experiments, we considered minimizing it under $\epsilon' > \beta \cdot (d+1)$ where the convergence is guaranteed in the paper. However, it might converge even when using a slightly smaller $\epsilon'$.)  
 In addition, we should also consider the convergence of the variance of the noise amount. (It is easy to see that it converges when $\epsilon' > \beta \cdot (d+2)$; however, we have not yet discussed for the case where $\epsilon' \leq \beta \cdot (d+2)$. Therefore, in fact, any results in the paper where $\epsilon' \leq \beta \cdot (d+2)$ might be better regarded as merely a reference. (That said, the proposed distributions are still more recommendable than existing ones.))
 
