@@ -13,7 +13,7 @@ In general, the values of $\beta$ satisfying $S(x) = LS(x)$ are relatively large
 In practice, the value of $\beta$ should be determined based on factors such as $\mathbb{E}\[S(x) \cdot Z\]$ and depends on the query function $f$; therefore, it must be considered in light of each specific analytical task. However, in any case, the experimental results suggest that using Smooth Indistinguishable Distributions can significantly reduce the expected noise amount compared to existing mechanisms.
 
 ## Important Future Challenges
-・Theoretically investigating an "optimal" smooth indistinguishable distribution, for example, minimizes the expected noise amount.
+・Theoretically investigating an "optimal" smooth indistinguishable distribution that, for example, minimizes the expected noise amount.
 
 ・The differential privacy guarantees in Theorems 1 and 2 are not perfectly tight. For example, the value of $\frac{S(y)}{S(x)}$ should be handled with greater care. By investigating tighter guarantees, I would like to find a more reasonable family of probability distributions for $\epsilon$-indistinguishable mechanisms that satisfies more detailed conditions.
 
@@ -22,7 +22,7 @@ In addition, we should also consider the convergence of the variance of the nois
 
 ・It cannot ruled out that there may be $(\alpha,\beta)$-admissible distributions that outperform $(\epsilon,\beta)$-smooth indistinguishable distributions but are not yet known or have not been discussed or studied in detail. Keeping this in mind, if such distributions are found, we intend to incorporate them (and even if none are found, we will continue to) seek a family of probability distributions that is preferred over the current one. At that time, it might also be worthwhile to take a closer look at the relationship between the classes of $(\epsilon,\beta)$-smooth indistinguishable distributions and $(\alpha,\beta)$-admissible distributions.
 
-・Developing efficient computational methods for the multi-dimensional case, especially when $d >> 2$. 
+・Developing efficient computational methods for the multi-dimensional case, especially when $d >> 2$.  
 ← Can we develop them (even heuristically) based on the distributions for $d=1$ and $d = 2$ cases? (Note that in general, $d$-dimensional product of independent copies of a one-dimensional $(\epsilon,\beta)$-smooth indistinguishable distribution is not smooth indistinguishable.) / It might also be worthwhile to consider relaxing Definitions 7 and 8.
 
 ・Constructing advanced mechanisms, such as bounded and unbiased mechanisms.
