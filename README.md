@@ -12,7 +12,7 @@ In addition to the results presented in the paper, we also provide some results 
 
 In general, the values of $\beta$ satisfying $S(x) = LS(x)$ are relatively large. By expanding the range of "possible" (e.g., to converge the expected noise amount) $\beta$ values, the possibility of using such $S$ in the mechanism increases.
 
-In practice, the value of $\beta$ should be determined based on factors such as $\mathbb{E}\[S(x) \cdot Z\]$ and depends on the query function $f$; therefore, it must be considered in light of each specific analytical task. However, in any case, the experimental results suggest that using Smooth Indistinguishable Distributions can significantly reduce the expected noise amount compared to existing mechanisms.
+In practice, the value of $\beta$ should be determined based on factors such as $\mathbb{E}\[S(x) \cdot |Z|\]$ and depends on the query function $f$; therefore, it must be considered in light of each specific analytical task. However, in any case, the experimental results suggest that using Smooth Indistinguishable Distributions can significantly reduce the expected noise amount compared to existing mechanisms.
 
 ## Important Future Challenges
 ・Theoretically investigating an "optimal" smooth indistinguishable distribution that, for example, minimizes the expected noise amount.
