@@ -15,7 +15,7 @@ In general, the values of $\beta$ satisfying $S(x) = LS(x)$ are relatively large
 In practice, the value of $\beta$ should be determined based on factors such as $\mathbb{E}\[S(x) \cdot |Z|\]$ and depends on the query function $f$; therefore, it must be considered in light of each specific analytical task. However, in any case, the experimental results suggest that using Smooth Indistinguishable Distributions can significantly reduce the expected noise amount compared to existing mechanisms.
 
 ## Important Future Challenges
-・Theoretically investigating an "optimal" smooth indistinguishable distribution that, for example, minimizes the expected noise amount.
+・Theoretically investigating an "optimal" smooth indistinguishable distribution that, for example, minimizes the expected noise amount. (When $\beta = 0$, they should be staircase mechanisms [[Geng and Viswanath, 2016](https://ieeexplore.ieee.org/abstract/document/7345591), [Geng et al., 2015](https://ieeexplore.ieee.org/abstract/document/7093132)], but I have no awareness of the other cases.)
 
 ・The differential privacy guarantees in Theorems 1 and 2 are not perfectly tight. For example, the value of $\frac{S(y)}{S(x)}$ should be handled with greater care. By investigating tighter guarantees, I would like to find a more reasonable family of probability distributions for $\epsilon$-indistinguishable mechanisms that satisfies more detailed conditions.
 
