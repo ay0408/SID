@@ -2,7 +2,7 @@
 
 We propose $(\epsilon,\beta)$-smooth indistinguishable distributions, a novel family of probability distributions for $\epsilon$-differentially private mechanisms. **The idea enables the unified and more flexible constructions of global sensitivity- and smooth sensitivity-based mechanisms.**
 
-This page provides the results showing that the proposed distributions can significantly reduce the (expected) noise amount compared to existing ones, including the Laplace distribution and $(\alpha,\beta)$-admissible distributions, which have been also well-discussed for various tasks other than numeric query. 
+This page provides the results showing that the proposed distributions can significantly reduce the (expected) noise amount compared to existing ones, including the Laplace distribution and $(\alpha,\beta)$-admissible distributions, which have been well-discussed also for various tasks other than numeric query. 
 
 The "d=2" folder also contains image diagrams of two-dimensional $(\epsilon,\beta)$-smooth indistinguishable distributions.
 
